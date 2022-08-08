@@ -6,24 +6,27 @@
 
 
 body {
-    text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    margin: 200px;
-    padding: 10px;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-     font-family: 'Inconsolata', monospace;
     
-}
+     display: flex; 
+     justify-content: center; 
+     align-items: center;
+     height: 100vh;
+     font-family: 'Edu VIC WA NT Beginner', cursive;
+     font-family: 'Inconsolata', monospace;
+     background: url(https://images.unsplash.com/photo-1619596022021-ccc26ffb2a40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80/landscape) no-repeat,url(https://images.unsplash.com/photo-1563293766-4e8ab7be1ea4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXR0cmFraGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) right no-repeat , url(https://images.unsplash.com/photo-1622817894024-9480fdefb7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHV0dHJha2hhbmQlMjBnYXJod2FsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) left bottom no-repeat; 
+     background-size: 500px,800px auto
+     
+    }
 
 .Card{
-    background-color: bisque;
+    background-color: #000000 ;
+    color: white;
     padding: 20px;
     border: 5px solid #5cbbbb;
     border-radius: 25px;
     width: 100%;
     max-width: 420px;
-    margin :10px;
+    margin :1em;
     overflow: hidden;
     
 }
